@@ -11,8 +11,8 @@
 </p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/stats-mobile-v3.svg">
-  <img src="assets/stats-v3.svg" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and public contributions in the past 12 months. Each panel includes its update date.">
+  <source media="(max-width: 640px)" srcset="assets/stats-mobile-v3.svg?view=public-activity">
+  <img src="assets/stats-v3.svg?view=public-activity" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and public contributions in the past 12 months. Each panel includes its update date.">
 </picture>
 
 <img src="assets/intro-v3.svg" width="100%" alt="Business websites. Connected systems. Useful automation.">
@@ -67,9 +67,9 @@ Alongside development, I contribute to the Software Engineering Evening Society 
 
 ### Public contribution activity
 
-<img src="assets/activity-v3.svg" width="100%" alt="Genuine public GitHub contribution calendar, styled in burgundy. The total and update date are shown in the image.">
+<img src="assets/activity-v3.svg?view=public-activity" width="100%" alt="Genuine public GitHub contribution calendar, styled in burgundy. The total and update date are shown in the image.">
 
-<img src="assets/monthly-v3.svg" width="100%" alt="Monthly contribution totals calculated from the same GitHub calendar.">
+<img src="assets/monthly-v3.svg?view=public-activity" width="100%" alt="Monthly contribution totals calculated from the same GitHub calendar.">
 
 <sub>Generated from GitHub data. Daily refresh; each image shows its snapshot date. This dashboard covers public activity. Your signed-in native graph may also include private contributions.</sub>
 
