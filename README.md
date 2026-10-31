@@ -1,20 +1,34 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/hero-mobile-v2.svg">
-  <img src="assets/hero-v2.svg" width="100%" alt="Ameer Hamza. Software developer building full-stack applications, business systems and AI-powered workflows. React, Supabase and Python. Gujrat, Pakistan.">
+  <source media="(max-width: 640px)" srcset="assets/hero-mobile-v3.svg">
+  <img src="assets/hero-v3.svg" width="100%" alt="Ameer Hamza. Software developer building full-stack applications, business systems and AI-powered workflows. React, Supabase and Python. Gujrat, Pakistan.">
 </picture>
 
 <p align="center">
-  <a href="https://hamza-muhammadi.github.io/Ameer-Hamza-Portfolio/"><b>Explore my portfolio ↗</b></a> &nbsp; / &nbsp;
-  <a href="#selected-work"><b>Selected work</b></a> &nbsp; / &nbsp;
-  <a href="#technical-toolkit"><b>Toolkit</b></a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/ameer-hamza-muhammadi"><b>LinkedIn ↗</b></a>
+  <a href="https://hamza-muhammadi.github.io/Ameer-Hamza-Portfolio/"><img src="assets/link-portfolio-v3.svg" width="23%" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/ameer-hamza-muhammadi"><img src="assets/link-linkedin-v3.svg" width="23%" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/hamza.muhammadii/"><img src="assets/link-instagram-v3.svg" width="23%" alt="Instagram"></a>
+  <a href="mailto:ameerhamzamuhammadi.056@gmail.com"><img src="assets/link-email-v3.svg" width="23%" alt="Email"></a>
 </p>
 
-<img src="assets/notes-v2.svg" width="100%" alt="Clear interfaces. Connected data. Simpler workflows.">
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/stats-mobile-v3.svg">
+  <img src="assets/stats-v3.svg" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and contributions in the past 12 months. Each panel includes its update date.">
+</picture>
 
-I’m **Ameer Hamza**, a software developer building business websites, retail systems and AI-powered workflows. I work across **React, Supabase and Python** to turn practical problems into usable software.
+<img src="assets/intro-v3.svg" width="100%" alt="Business websites. Connected systems. Useful automation.">
 
-I build across the interface, application logic and database, with attention to the people using the product on a phone or behind a counter. My work includes a family-business retail system, a campus lost-and-found MVP and a free portfolio starter for other developers.
+**I build full-stack applications around the way people actually work.** My projects connect customer-facing websites, internal business tools and shared data, with clear interfaces and practical automation.
+
+From a retail system for a family business to an independent campus lost-and-found platform, I work across the interface, application logic and database to turn an idea into something people can use.
+
+### Pinned repositories
+
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/pins-mobile-v3.svg">
+  <img src="assets/pins-v3.svg" width="100%" alt="Pinned repositories: Jameel Fabrics retail ERP, Jameel Fabrics customer website and The H Portfolio template. Repository links below.">
+</picture>
+
+[Retail ERP](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Kunjah) · [Customer website](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Online-Website) · [Portfolio starter](https://github.com/Hamza-Muhammadi/The-H-Portfolio-Template)
 
 ### Selected work
 
@@ -51,9 +65,13 @@ I build across the interface, application logic and database, with attention to 
 
 Alongside development, I contribute to the Software Engineering Evening Society as an Executive Member and the Business Incubation Center as an Outreach Member.
 
-### Development activity
+### Contribution activity
 
-Browse [my public repositories](https://github.com/Hamza-Muhammadi?tab=repositories) and the **GitHub contribution graph below** for my actual activity. Some business and campus code remains private.
+<img src="assets/activity-v3.svg" width="100%" alt="Genuine GitHub contribution calendar, styled in burgundy. The total and update date are shown in the image.">
+
+<img src="assets/monthly-v3.svg" width="100%" alt="Monthly contribution totals calculated from the same GitHub calendar.">
+
+<sub>Generated from GitHub data. Daily refresh; each image shows its snapshot date. GitHub’s native graph below remains the current source for activity.</sub>
 
 <a href="mailto:ameerhamzamuhammadi.056@gmail.com"><img src="assets/footer-v2.svg" width="100%" alt="Have a practical problem? Let’s build something useful. Email Ameer Hamza."></a>
 
