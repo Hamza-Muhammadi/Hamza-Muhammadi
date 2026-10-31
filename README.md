@@ -26,7 +26,7 @@ I build across the interface, application logic and database, with attention to 
 
 <a href="https://hamza-muhammadi.github.io/Ameer-Hamza-Portfolio/#originals"><img src="assets/relink-v2.svg" width="100%" alt="ReLink UOG. An independent campus lost-and-found MVP built with Python, FastAPI and Jinja2. A campus pilot is planned."></a>
 
-**A clearer way to report and find lost items on campus.** Independently developed an MVP with lost/found reports, item browsing, registration, login and a personal dashboard. A future UOG pilot is planned; the platform is not presented as an official university service.
+**A clearer way to report and find lost items on campus.** Independently developed an MVP with lost/found reports, item browsing, registration, login and a personal dashboard. Built independently for a planned campus pilot.
 
 [Project overview ↗](https://hamza-muhammadi.github.io/Ameer-Hamza-Portfolio/#originals)
 
