@@ -15,6 +15,11 @@
   <img src="assets/stats-v3.svg?view=public-activity" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and public contributions in the past 12 months. Each panel includes its update date.">
 </picture>
 
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/tech-stack-mobile.svg">
+  <img src="assets/tech-stack.svg" width="100%" alt="Tech stack: React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Python, FastAPI, Node.js, Supabase, Git, GitHub, Vite, Vercel and SQL.">
+</picture>
+
 <img src="assets/intro-v3.svg" width="100%" alt="Business websites. Connected systems. Useful automation.">
 
 **I build full-stack applications around the way people actually work.** My projects connect customer-facing websites, internal business tools and shared data, with clear interfaces and practical automation.
