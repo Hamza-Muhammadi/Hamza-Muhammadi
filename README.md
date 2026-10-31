@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/hero-mobile-v3.svg">
-  <img src="assets/hero-v3.svg" width="100%" alt="Ameer Hamza. Software developer building full-stack applications, business systems and AI-powered workflows. React, Supabase and Python. Gujrat, Pakistan.">
+  <source media="(max-width: 640px)" srcset="assets/hero-mobile-cinematic.jpg">
+  <img src="assets/hero-cinematic.jpg" width="100%" alt="Ameer Hamza. Full-stack software developer. Web applications, SaaS products and intelligent systems. From concept to deployment.">
 </picture>
 
 <p align="center">
@@ -11,49 +11,39 @@
 </p>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/stats-mobile-v3.svg?view=public-activity">
-  <img src="assets/stats-v3.svg?view=public-activity" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and public contributions in the past 12 months. Each panel includes its update date.">
+  <source media="(max-width: 640px)" srcset="assets/stats-mobile-cinematic.svg">
+  <img src="assets/stats-cinematic.svg" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and public contributions in the past 12 months. Each panel includes its update date.">
 </picture>
+
+<img src="assets/about-cinematic.svg" width="100%" alt="Useful software, built around people. I connect interfaces, application logic and data.">
+
+I’m **Ameer Hamza**, a software developer building web applications, SaaS products and intelligent systems. I work across **React, Supabase and Python**, connecting interfaces, application logic and databases from concept to deployment.
+
+My work includes a family-business retail system, an independent campus lost-and-found MVP and a free portfolio starter for other developers.
 
 <picture>
   <source media="(max-width: 640px)" srcset="assets/tech-stack-mobile.svg">
-  <img src="assets/tech-stack.svg" width="100%" alt="Tech stack: React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Python, FastAPI, Node.js, Supabase, Git, GitHub, Vite, Vercel and SQL.">
+  <img src="assets/tech-stack.svg" width="100%" alt="React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Python, FastAPI, Node.js, Supabase, Git, GitHub, Vite, Vercel and SQL.">
 </picture>
-
-<img src="assets/intro-v3.svg" width="100%" alt="Business websites. Connected systems. Useful automation.">
-
-**I build full-stack applications around the way people actually work.** My projects connect customer-facing websites, internal business tools and shared data, with clear interfaces and practical automation.
-
-From a retail system for a family business to an independent campus lost-and-found platform, I work across the interface, application logic and database to turn an idea into something people can use.
-
-### Pinned repositories
-
-<picture>
-  <source media="(max-width: 640px)" srcset="assets/pins-mobile-v3.svg">
-  <img src="assets/pins-v3.svg" width="100%" alt="Pinned repositories: Jameel Fabrics retail ERP, Jameel Fabrics customer website and The H Portfolio template. Repository links below.">
-</picture>
-
-[Retail ERP](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Kunjah) · [Customer website](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Online-Website) · [Portfolio starter](https://github.com/Hamza-Muhammadi/The-H-Portfolio-Template)
 
 ### Selected work
 
-<a href="https://jameel-fabrics-catalogue.vercel.app"><img src="assets/business-v2.svg" width="100%" alt="Jameel Fabrics. Customer website and retail ERP. React and Supabase. A real family-business build."></a>
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/projects-mobile-cinematic.svg">
+  <img src="assets/projects-cinematic.svg" width="100%" alt="Jameel Fabrics: connected customer website and retail ERP. ReLink UOG: independent campus lost-and-found MVP, pilot planned. The H Portfolio: free community template. Cards illustrate each project workflow.">
+</picture>
 
-**One business, two connected experiences.** Built a customer website and an internal retail system around a shared Supabase database. Features include an admin panel, theme options, PWA support and WhatsApp bill generation.
+**Jameel Fabrics** · Customer website and retail ERP sharing a Supabase database, with an admin panel, themes, PWA support and WhatsApp bills.
 
-[Customer website ↗](https://jameel-fabrics-catalogue.vercel.app) · [Retail system ↗](https://jameel-fabrics-kunjah-phis.vercel.app) · [Website source](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Online-Website) · [ERP source](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Kunjah)
+[Customer website](https://jameel-fabrics-catalogue.vercel.app) · [Retail system](https://jameel-fabrics-kunjah-phis.vercel.app) · [Website source](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Online-Website) · [ERP source](https://github.com/Hamza-Muhammadi/Jameel-Fabrics-Kunjah)
 
-<a href="https://hamza-muhammadi.github.io/Ameer-Hamza-Portfolio/#originals"><img src="assets/relink-v2.svg" width="100%" alt="ReLink UOG. An independent campus lost-and-found MVP built with Python, FastAPI and Jinja2. A campus pilot is planned."></a>
+**ReLink UOG** · Independent MVP for lost/found reports, browsing, authentication and a personal dashboard. Built for a planned campus pilot.
 
-**A clearer way to report and find lost items on campus.** Independently developed an MVP with lost/found reports, item browsing, registration, login and a personal dashboard. Built independently for a planned campus pilot.
+[Project overview](https://hamza-muhammadi.github.io/Ameer-Hamza-Portfolio/#originals)
 
-[Project overview ↗](https://hamza-muhammadi.github.io/Ameer-Hamza-Portfolio/#originals)
+**The H Portfolio** · Responsive community template with a browser customizer, AI master prompt and beginner-friendly publishing guide.
 
-<a href="https://hamza-muhammadi.github.io/The-H-Portfolio-Template/start/"><img src="assets/template-v2.svg" width="100%" alt="The H Portfolio. A free community template in HTML, CSS and JavaScript, with an AI prompt and personalization guide."></a>
-
-**Help other developers give their work a home.** Created a cinematic portfolio template with responsive sections, a browser customizer and a beginner-friendly resource page. The AI master prompt guides users through personalization, demo review and publishing their own copy.
-
-[Get the starter kit ↗](https://hamza-muhammadi.github.io/The-H-Portfolio-Template/start/) · [Explore the template ↗](https://hamza-muhammadi.github.io/The-H-Portfolio-Template/) · [Source code](https://github.com/Hamza-Muhammadi/The-H-Portfolio-Template)
+[Get the starter kit](https://hamza-muhammadi.github.io/The-H-Portfolio-Template/start/) · [Live template](https://hamza-muhammadi.github.io/The-H-Portfolio-Template/) · [Source code](https://github.com/Hamza-Muhammadi/The-H-Portfolio-Template)
 
 ### Technical toolkit
 
