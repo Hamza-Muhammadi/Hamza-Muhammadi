@@ -10,7 +10,7 @@ def rect(x,y,w,h,c,rx=0,stroke=None):return f'<rect x="{x}" y="{y}" width="{w}" 
 def save(name,w,h,body,title):
  (A/name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img"><title>{escape(title)}</title>{body}</svg>')
 def render(data):
- stamp=data['updated'][:10];stats=[(data['followers'],'FOLLOWERS'),(len(data['pins']),'PINNED REPOS'),(sum(p['stars'] for p in data['pins']),'STARS ON PINNED'),(data['total'],'CONTRIBUTIONS / 12 MO')]
+ stamp=data['updated'][:10];stats=[(data['followers'],'FOLLOWERS'),(len(data['pins']),'PINNED REPOS'),(sum(p['stars'] for p in data['pins']),'STARS ON PINNED'),(data['total'],'PUBLIC CONTRIBUTIONS')]
  for mobile in (False,True):
   w,h=(680,320) if mobile else (1200,190);b=rect(0,0,w,h,BG,20,LINE)
   for j,(n,label) in enumerate(stats):
@@ -37,7 +37,7 @@ def render(data):
   save('pins-mobile-v3.svg' if mobile else 'pins-v3.svg',w,h,body,'Pinned repositories: retail ERP, customer website and community portfolio template.')
  # A genuine year calendar. Future days are absent, not filled with invented activity.
  days=sorted(data['days'],key=lambda x:x['date']);start=datetime.fromisoformat(days[0]['date']).date();start-=timedelta(days=(start.weekday()+1)%7)
- b=rect(0,0,1200,460,BG,20,LINE)+text(35,49,'CONTRIBUTION ACTIVITY',19,ROSE,True)+text(35,112,f'{data["total"]:,} contributions',47,WHITE,True)+text(35,150,'A year of building, one contribution at a time.',23,MUTED)
+ b=rect(0,0,1200,460,BG,20,LINE)+text(35,49,'PUBLIC CONTRIBUTION ACTIVITY',19,ROSE,True)+text(35,112,f'{data["total"]:,} public contributions',47,WHITE,True)+text(35,150,'Public activity across the past 12 months.',23,MUTED)
  palette=['#211c2b','#593047','#864365','#bb688d','#edb0cc'];months={}
  for day in days:
   dt=datetime.fromisoformat(day['date']).date();col=(dt-start).days//7;row=(dt.weekday()+1)%7;level=min(4,max(0,int(day.get('level',min(4,day['count'])))))
@@ -46,11 +46,11 @@ def render(data):
  for col,m in months.items():b+=text(38+col*21,190,m,14,MUTED)
  b+=text(36,404,'PAST 12 MONTHS',15,TEAL)+text(36,433,'SOURCE: GITHUB / UPDATED '+stamp,14,MUTED)+text(927,409,'LESS',13,MUTED)
  for k,c in enumerate(palette):b+=rect(975+k*24,395,17,17,c,3)
- save('activity-v3.svg',1200,460,b,'Actual GitHub contribution calendar: '+str(data['total'])+' contributions in the past year. Updated '+stamp)
+ save('activity-v3.svg',1200,460,b,'Public GitHub contribution calendar: '+str(data['total'])+' contributions in the past year. Updated '+stamp)
  # Six monthly totals, calculated from the same real calendar.
  monthly={}
  for day in days:monthly[day['date'][:7]]=monthly.get(day['date'][:7],0)+day['count']
- months=sorted(monthly)[-6:];mx=max([monthly[m] for m in months]+[1]);b=rect(0,0,1200,310,BG,20,LINE)+text(35,47,'MONTH BY MONTH',19,ROSE,True)+text(35,83,'Contributions recorded by GitHub',21,MUTED)
+ months=sorted(monthly)[-6:];mx=max([monthly[m] for m in months]+[1]);b=rect(0,0,1200,310,BG,20,LINE)+text(35,47,'MONTH BY MONTH',19,ROSE,True)+text(35,83,'Public contributions recorded by GitHub',21,MUTED)
  for j,m in enumerate(months):
   x=37+j*195;bh=100*monthly[m]/mx;b+=rect(x,122,155,100,'#211c2b',7)+rect(x,222-bh,155,bh,'#9d5279',7)+text(x,259,datetime.strptime(m,'%Y-%m').strftime('%b %Y'),18,MUTED)+text(x+105,118,monthly[m],21,TEAL,True)
  save('monthly-v3.svg',1200,310,b,'Monthly contributions: '+', '.join(m+': '+str(monthly[m]) for m in months)+'. Updated '+stamp)

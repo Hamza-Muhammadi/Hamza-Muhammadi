@@ -12,7 +12,7 @@
 
 <picture>
   <source media="(max-width: 640px)" srcset="assets/stats-mobile-v3.svg">
-  <img src="assets/stats-v3.svg" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and contributions in the past 12 months. Each panel includes its update date.">
+  <img src="assets/stats-v3.svg" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and public contributions in the past 12 months. Each panel includes its update date.">
 </picture>
 
 <img src="assets/intro-v3.svg" width="100%" alt="Business websites. Connected systems. Useful automation.">
@@ -65,13 +65,13 @@ From a retail system for a family business to an independent campus lost-and-fou
 
 Alongside development, I contribute to the Software Engineering Evening Society as an Executive Member and the Business Incubation Center as an Outreach Member.
 
-### Contribution activity
+### Public contribution activity
 
-<img src="assets/activity-v3.svg" width="100%" alt="Genuine GitHub contribution calendar, styled in burgundy. The total and update date are shown in the image.">
+<img src="assets/activity-v3.svg" width="100%" alt="Genuine public GitHub contribution calendar, styled in burgundy. The total and update date are shown in the image.">
 
 <img src="assets/monthly-v3.svg" width="100%" alt="Monthly contribution totals calculated from the same GitHub calendar.">
 
-<sub>Generated from GitHub data. Daily refresh; each image shows its snapshot date. GitHub’s native graph below remains the current source for activity.</sub>
+<sub>Generated from GitHub data. Daily refresh; each image shows its snapshot date. This dashboard covers public activity. Your signed-in native graph may also include private contributions.</sub>
 
 <a href="mailto:ameerhamzamuhammadi.056@gmail.com"><img src="assets/footer-v2.svg" width="100%" alt="Have a practical problem? Let’s build something useful. Email Ameer Hamza."></a>
 
