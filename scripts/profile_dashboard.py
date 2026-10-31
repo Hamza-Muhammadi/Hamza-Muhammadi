@@ -13,18 +13,18 @@ def render(data):
  stamp=data['updated'][:10];stats=[(data['followers'],'FOLLOWERS'),(len(data['pins']),'PINNED REPOS'),(sum(p['stars'] for p in data['pins']),'STARS ON PINNED'),(data['total'],'PUBLIC CONTRIBUTIONS')]
  for mobile in (False,True):
   w,h=(680,420) if mobile else (1200,265);b=rect(0,0,w,h,BG,20,LINE)
-  b+=text(30,33,'GITHUB / PUBLIC ACTIVITY',14,ROSE,True)
+  b+=text(30,33,'DEMO STATS / DESIGN DISPLAY',14,ROSE,True)
   colors=['#e35990','#55b7ed','#e4bd60','#67dac4']
   icons=['M-13 13v-6c0-9 26-9 26 0v6M0-6a7 7 0 1 0 0-14 7 7 0 0 0 0 14M-18-3a5 5 0 1 0 0-10M18-3a5 5 0 1 0 0-10','M-10-17h20v34L0 10l-10 7Z','M0-19 6-6 20-4 10 6 13 20 0 13-13 20-10 6-20-4-6-6Z','M-9-15v30M-9 0h10q12 0 12-12M-9-15a4 4 0 1 0 0-.1M-9 15a4 4 0 1 0 0-.1M13-16a4 4 0 1 0 0-.1']
-  for j,(n,label) in enumerate(stats):
+  for j,(n,label) in enumerate([('200K','FOLLOWERS'),('3','PINNED REPOS'),('1M','STARS'),('999K','PUBLIC CONTRIBUTIONS')]):
    cw=300 if mobile else 272;x=30+(j%2)*320 if mobile else 30+j*293;y=54+(j//2)*161 if mobile else 57
    b+=rect(x,y,cw,143,'#13121d',12,LINE)
    b+=f'<g transform="translate({x+cw/2},{y+29})" fill="none" stroke="{colors[j]}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{icons[j]}"/></g>'
-   b+=f'<text x="{x+cw/2}" y="{y+92}" text-anchor="middle" fill="{WHITE}" font-family="Georgia,serif" font-size="46">{n:,}</text>'
-   names=['Followers','Pinned repos','Stars on pinned','Public contributions']
+   b+=f'<text x="{x+cw/2}" y="{y+92}" text-anchor="middle" fill="{WHITE}" font-family="Georgia,serif" font-size="46">{n}</text>'
+   names=['Followers','Pinned repos','Stars','Public contributions']
    b+=f'<text x="{x+cw/2}" y="{y+125}" text-anchor="middle" fill="{MUTED}" font-family="Georgia,serif" font-size="21">{names[j]}</text>'
-  b+=text(30,h-17,'GITHUB DATA / '+stamp,13,ROSE)
-  save('stats-mobile-cinematic.svg' if mobile else 'stats-cinematic.svg',w,h,b,'Genuine GitHub snapshot: '+', '.join(str(n)+' '+l.lower() for n,l in stats)+'. Updated '+stamp)
+  b+=text(30,h-17,'ILLUSTRATIVE NUMBERS / NOT ACTUAL GITHUB METRICS',13,ROSE)
+  save('stats-mobile-cinematic.svg' if mobile else 'stats-cinematic.svg',w,h,b,'Demo stats: 200K followers, 3 pinned repos, 1M stars, 999K public contributions. Illustrative numbers, not actual GitHub metrics.')
  # Individual pinned cards stay separate and clickable in a 3-column desktop table.
  descriptions={'Jameel-Fabrics-Kunjah':('JAMEEL FABRICS','Retail ERP','Business operations,','connected to the storefront.'),'Jameel-Fabrics-Online-Website':('JAMEEL FABRICS','Customer website','A digital storefront','for a real clothing business.'),'The-H-Portfolio-Template':('THE H PORTFOLIO','Community template','A cinematic starter kit','to make your own.')}
  for i,p in enumerate(data['pins']):

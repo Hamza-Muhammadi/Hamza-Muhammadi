@@ -12,7 +12,7 @@
 
 <picture>
   <source media="(max-width: 640px)" srcset="assets/stats-mobile-cinematic.svg">
-  <img src="assets/stats-cinematic.svg" width="100%" alt="GitHub snapshot: followers, pinned repositories, stars on pinned repositories and public contributions in the past 12 months. Each panel includes its update date.">
+  <img src="assets/stats-cinematic.svg" width="100%" alt="Demo stats: 200K followers, 3 pinned repos, 1M stars and 999K public contributions. Illustrative numbers, not actual GitHub metrics.">
 </picture>
 
 <img src="assets/about-cinematic.svg" width="100%" alt="Useful software, built around people. I connect interfaces, application logic and data.">
